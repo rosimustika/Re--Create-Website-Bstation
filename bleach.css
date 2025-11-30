@@ -1,0 +1,384 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-icon span {
+    font-size: 24px;
+    color: #0099ff;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  
+  .logo img {
+    height: 30px;
+  }
+  
+  .search-bar {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: #f1f1f1;
+    font-size: 16px;
+  }
+  
+  .navbar-right {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .navbar-right button {
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .download {
+    background-color: #e3e3e3;
+  }
+  
+  .premium {
+    background-color: #ff5c8a;
+    color: white;
+    position: relative;
+  }
+  
+  .premium::after {
+    content: "Promo!";
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #fdd835;
+    color: #000;
+    font-size: 10px;
+    padding: 2px 5px;
+    border-radius: 5px;
+  }
+  
+  .login {
+    background-color: #e3e3e3;
+  }
+    
+
+.header {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: left;
+}
+
+.header img {
+    height: 100%;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background-color: #0d47a1;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.banner .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: left;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 10%;
+}
+
+.banner h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 60px;
+    
+}
+
+.banner p {
+    font-size: 18px;
+    max-width: 600px;
+    text-align: left;
+}
+
+.button-group {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.button {
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.button i {
+    margin-right: 8px;
+}
+
+.tags {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.tag {
+    background-color: #ffca28;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+.trending {
+    margin-top: 40px;
+    padding: 0 20px;
+}
+
+.trending h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.trending-items {
+    display: flex;
+    gap: 20px;
+}
+
+.trending-items img {
+    width: 200px;
+    border-radius: 10px;
+}
+.schedule-container {
+  padding: 20px;
+  background-color: #f0f8ff;
+}
+
+.schedule-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.schedule-header h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.schedule-header button {
+  padding: 10px 20px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.schedule-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+
+.schedule-item {
+  text-align: center;
+}
+
+.schedule-item img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.schedule-item h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.schedule-item .episode {
+  font-size: 14px;
+  color: gray;
+}
+
+.schedule-time {
+  background-color: #e0f7fa;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  color: inherit;
+}
+
+.schedule-item a {
+  color: inherit;          /* Menggunakan warna teks elemen induk */
+  text-decoration: none;   /* Menghilangkan garis bawah */
+  font-size: 16px;         /* Sesuaikan ukuran teks jika perlu */
+}
+
+.ranking-card {
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+}
+
+
+.ranking-header {
+    background-color: #0099ff;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.ranking-card img {
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.rangkingwrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /* Atur jarak antar item */
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+}
+.Rekomendasi{
+    margin-top: 40px;
+    padding: 0 20px;
+}
+.Rekomendasi h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.rekomendasi-items{
+    display: flex;
+    gap: 20px;
+}
+.rekomendasi-items img{
+    width: 200px;
+    border-radius: 10px;
+}
+.Genre {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .jenisgenre {
+    background-color: #0099ff;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .jenisgenre h3 {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .jenisanime {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  
+  .jenisanime img {
+    width: 50px;
+    height: 75px;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  .namaanime h4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
+    align-items: center;
+    padding-top: 25px;
+  }
+  
+  
+  .penutup{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: #0d47a1;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  .penutup .overlay{
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: left;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 10%;
+
+  }
+  .penutup h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 60px;
+    color: #000000;
+    
+}

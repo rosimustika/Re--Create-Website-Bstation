@@ -1,0 +1,118 @@
+/* Style Dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('login\ bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    width: 700px; /* Menyesuaikan lebar panel agar lebih kecil */
+    height: 400px; /* Menyesuaikan tinggi panel */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.left-panel {
+    width: 50%; /* Menyesuaikan lebar panel kiri */
+    padding: 40px; /* Menyesuaikan padding agar lebih kecil */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.left-panel h1 {
+    font-size: 22px; /* Ukuran font lebih kecil */
+    margin-bottom: 15px; /* Spasi lebih kecil */
+}
+
+.left-panel .social-icons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.social-icons {
+    margin: 15px 0;
+}
+
+.social-icons a {
+    border: 1px solid #ccc;
+    border-radius: 20%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px; /* Mengecilkan ukuran ikon sosial */
+    height: 35px;
+}
+
+.left-panel span {
+    font-size: 13px; /* Ukuran font lebih kecil */
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.left-panel input {
+    width: 100%;
+    padding: 8px; /* Mengecilkan padding input */
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.left-panel button {
+    background-color: #0099ff;
+    color: #fff;
+    border: none;
+    padding: 8px 15px; /* Mengecilkan padding tombol */
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.right-panel {
+    width: 50%; /* Menyesuaikan lebar panel kanan */
+    background-color: #0099ff;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px; /* Mengecilkan padding */
+}
+
+.right-panel h1 {
+    font-size: 24px; /* Ukuran font lebih kecil */
+    margin-bottom: 15px;
+}
+
+.right-panel p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.right-panel button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 8px 15px; /* Mengecilkan padding tombol */
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
